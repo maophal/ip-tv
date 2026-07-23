@@ -2,18 +2,18 @@
 <tv>
   <channel id="CNN.us">
     <display-name>CNN</display-name>
-    <icon src="https://i.imgur.com/vyrc1I1.png" />
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png" />
   </channel>
   <channel id="BBCNews.uk@Europe">
     <display-name>BBC News (1080p) [Geo-blocked]</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" />
+    <icon src="https://images.icon-icons.com/70/PNG/512/bbc_news_14062.png" />
   </channel>
   <channel id="BBCNews.uk@Africa">
-    <display-name>BBC News (1080p) (HEVC) [Geo-blocked]</display-name>
+    <display-name>BBC News (720p)</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" />
   </channel>
   <channel id="SkyNews.ie@SD">
-    <display-name>Sky News (576p)</display-name>
+    <display-name>Sky News</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png" />
   </channel>
   <channel id="FoxNewsChannel.us@SD">
@@ -45,11 +45,11 @@
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" />
   </channel>
   <channel id="BloombergTV.us@Plus">
-    <display-name>Bloomberg TV+ (720p)</display-name>
+    <display-name>Bloomberg TV+</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" />
   </channel>
   <channel id="BloombergHT.tr@SD">
-    <display-name>BloombergHT (720p)</display-name>
+    <display-name>Bloomberg HT (720p) [Not 24/7]</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" />
   </channel>
   <channel id="BloombergTV.us@US">
@@ -81,7 +81,7 @@
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png" />
   </channel>
   <channel id="AlJazeera.qa@Arabic">
-    <display-name>Al Jazeera (1080p)</display-name>
+    <display-name>Al Jazeera</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" />
   </channel>
   <channel id="AlJazeera.qa@English">
@@ -92,95 +92,95 @@
     <display-name>Al Jazeera 2 (1080p)</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" />
   </channel>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="CNN.us">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="CNN.us">
     <title>CNN Broadcast</title>
     <desc>Live Stream for CNN</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="BBCNews.uk@Europe">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="BBCNews.uk@Europe">
     <title>BBC News (1080p) [Geo-blocked] Broadcast</title>
     <desc>Live Stream for BBC News (1080p) [Geo-blocked]</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="BBCNews.uk@Africa">
-    <title>BBC News (1080p) (HEVC) [Geo-blocked] Broadcast</title>
-    <desc>Live Stream for BBC News (1080p) (HEVC) [Geo-blocked]</desc>
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="BBCNews.uk@Africa">
+    <title>BBC News (720p) Broadcast</title>
+    <desc>Live Stream for BBC News (720p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="SkyNews.ie@SD">
-    <title>Sky News (576p) Broadcast</title>
-    <desc>Live Stream for Sky News (576p)</desc>
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="SkyNews.ie@SD">
+    <title>Sky News Broadcast</title>
+    <desc>Live Stream for Sky News</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="FoxNewsChannel.us@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="FoxNewsChannel.us@SD">
     <title>Fox News Broadcast</title>
     <desc>Live Stream for Fox News</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="FoxNewsRadio.us@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="FoxNewsRadio.us@SD">
     <title>Fox News Broadcast</title>
     <desc>Live Stream for Fox News</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="FoxNewsInternational.us@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="FoxNewsInternational.us@SD">
     <title>Fox News Broadcast</title>
     <desc>Live Stream for Fox News</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="ABCNews.au@Sydney">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="ABCNews.au@Sydney">
     <title>ABC News (720p) Broadcast</title>
     <desc>Live Stream for ABC News (720p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="SABCNews.za@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="SABCNews.za@SD">
     <title>SABC News (720p) [Geo-blocked] Broadcast</title>
     <desc>Live Stream for SABC News (720p) [Geo-blocked]</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="CNBC.us@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="CNBC.us@SD">
     <title>CNBC (720p) Broadcast</title>
     <desc>Live Stream for CNBC (720p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="CNBCUK.uk@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="CNBCUK.uk@SD">
     <title>CNBC (1080p) Broadcast</title>
     <desc>Live Stream for CNBC (1080p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="BloombergTV.us@Plus">
-    <title>Bloomberg TV+ (720p) Broadcast</title>
-    <desc>Live Stream for Bloomberg TV+ (720p)</desc>
-  </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="BloombergHT.tr@SD">
-    <title>BloombergHT (720p) Broadcast</title>
-    <desc>Live Stream for BloombergHT (720p)</desc>
-  </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="BloombergTV.us@US">
-    <title>Bloomberg TV (1080p) Broadcast</title>
-    <desc>Live Stream for Bloomberg TV (1080p)</desc>
-  </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="BloombergTV.us@Plus-Poland">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="BloombergTV.us@Plus">
     <title>Bloomberg TV+ Broadcast</title>
     <desc>Live Stream for Bloomberg TV+</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="NewsmaxTV.us@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="BloombergHT.tr@SD">
+    <title>Bloomberg HT (720p) [Not 24/7] Broadcast</title>
+    <desc>Live Stream for Bloomberg HT (720p) [Not 24/7]</desc>
+  </programme>
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="BloombergTV.us@US">
+    <title>Bloomberg TV (1080p) Broadcast</title>
+    <desc>Live Stream for Bloomberg TV (1080p)</desc>
+  </programme>
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="BloombergTV.us@Plus-Poland">
+    <title>Bloomberg TV+ Broadcast</title>
+    <desc>Live Stream for Bloomberg TV+</desc>
+  </programme>
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="NewsmaxTV.us@SD">
     <title>Newsmax TV (720p) Broadcast</title>
     <desc>Live Stream for Newsmax TV (720p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="ArirangWorld.kr">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="ArirangWorld.kr">
     <title>Arirang World Broadcast</title>
     <desc>Live Stream for Arirang World</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="Euronews.pl@FAST">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="Euronews.pl@FAST">
     <title>Euronews (720p) Broadcast</title>
     <desc>Live Stream for Euronews (720p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="EuronewsGerman.fr@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="EuronewsGerman.fr@SD">
     <title>Euronews (720p) Broadcast</title>
     <desc>Live Stream for Euronews (720p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="EuronewsEnglish.fr@SD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="EuronewsEnglish.fr@SD">
     <title>Euronews (720p) Broadcast</title>
     <desc>Live Stream for Euronews (720p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="AlJazeera.qa@Arabic">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="AlJazeera.qa@Arabic">
+    <title>Al Jazeera Broadcast</title>
+    <desc>Live Stream for Al Jazeera</desc>
+  </programme>
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="AlJazeera.qa@English">
     <title>Al Jazeera (1080p) Broadcast</title>
     <desc>Live Stream for Al Jazeera (1080p)</desc>
   </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="AlJazeera.qa@English">
-    <title>Al Jazeera (1080p) Broadcast</title>
-    <desc>Live Stream for Al Jazeera (1080p)</desc>
-  </programme>
-  <programme start="20260723082626 +0000" stop="20260730082626 +0000" channel="AlJazeera2.qa@HD">
+  <programme start="20260723090536 +0000" stop="20260730090536 +0000" channel="AlJazeera2.qa@HD">
     <title>Al Jazeera 2 (1080p) Broadcast</title>
     <desc>Live Stream for Al Jazeera 2 (1080p)</desc>
   </programme>

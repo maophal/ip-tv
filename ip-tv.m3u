@@ -1,143 +1,143 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png" tvg-id="CNN.us" tvg-chno="36" group-title="News",CNN
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png" group-title="News",CNN
 https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_us/streams/us/CNNUSA.us.m3u8
-#EXTINF:-1 tvg-name="CNN" tvg-logo="https://i.imgur.com/vyrc1I1.png" tvg-id="CNN.us" tvg-chno="1" tvg-country="US" group-title="USA",CNN
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://i.imgur.com/vyrc1I1.png" group-title="USA",CNN
 https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@Europe" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",BBC News (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="BBCNews.uk@Europe" tvg-name="BBC News (1080p) [Geo-blocked]" tvg-logo="https://images.icon-icons.com/70/PNG/512/bbc_news_14062.png" group-title="",BBC News (1080p) [Geo-blocked]
 https://pb-iiczlgfysam0q.akamaized.net/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",BBC News (720p)
+#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="",BBC News (720p)
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
-#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",BBC News (720p)
+#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="",BBC News (720p)
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",BBC News (540p) [Geo-blocked]
+#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News (540p) [Geo-blocked]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="",BBC News (540p) [Geo-blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",BBC News (540p)
+#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News (540p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="",BBC News (540p)
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",BBC News (1080p) (HEVC) (1080p)
+#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News (1080p) (HEVC) (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="",BBC News (1080p) (HEVC) (1080p)
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
-#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png",BBC News (1080p) (HEVC) [Geo-blocked]
+#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News (1080p) (HEVC) [Geo-blocked]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="",BBC News (1080p) (HEVC) [Geo-blocked]
 https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
-#EXTINF:-1 tvg-id="SkyNews.ie@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png",Sky News
+#EXTINF:-1 tvg-id="SkyNews.ie@SD" tvg-name="Sky News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png" group-title="",Sky News
 https://jmp2.uk/plu-55b285cd2665de274553d66f.m3u8
-#EXTINF:-1 tvg-id="SkyNews.ie@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png",Sky News (576p)
+#EXTINF:-1 tvg-id="SkyNews.ie@SD" tvg-name="Sky News (576p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png" group-title="",Sky News (576p)
 http://41.205.77.102/SKYNEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 http://41.205.77.102/FOX-NEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 http://45.190.28.50/FOX_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 http://138.121.15.230:9002/FOX-NEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 http://167.250.126.140:7777/FOXNEWS-HD/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 http://206.212.244.63/67/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
-#EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsInternational.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsInternational.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 https://gpuserver3.tier1streams.com/FOX/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png",Fox News
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" group-title="",Fox News
 https://gpuserver3.tier1streams.com/FOX_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="",CBS News (720p)
+#EXTINF:-1 tvg-id="" tvg-name="CBS News (720p)" tvg-logo="" group-title="",CBS News (720p)
 https://jmp2.uk/plu-62310f66d5888f0007534342.m3u8
-#EXTINF:-1 tvg-id="",CBS News (720p)
+#EXTINF:-1 tvg-id="" tvg-name="CBS News (720p)" tvg-logo="" group-title="",CBS News (720p)
 https://jmp2.uk/plu-62310d5a5dc9550007c6f580.m3u8
-#EXTINF:-1 tvg-id="ABCNews.au@Sydney" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/australia/abc-news-au.png",ABC News (720p)
+#EXTINF:-1 tvg-id="ABCNews.au@Sydney" tvg-name="ABC News (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/australia/abc-news-au.png" group-title="",ABC News (720p)
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
-#EXTINF:-1 tvg-id="ABCNews.au@Sydney" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/australia/abc-news-au.png",ABC News (720p)
+#EXTINF:-1 tvg-id="ABCNews.au@Sydney" tvg-name="ABC News (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/australia/abc-news-au.png" group-title="",ABC News (720p)
 https://c.mjh.nz/abc-news.m3u8
-#EXTINF:-1 tvg-id="SABCNews.za@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/australia/abc-news-au.png",SABC News (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="SABCNews.za@SD" tvg-name="SABC News (720p) [Geo-blocked]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/australia/abc-news-au.png" group-title="",SABC News (720p) [Geo-blocked]
 https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",CNBC (720p)
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="",CNBC (720p)
 http://206.212.244.63/41/index.m3u8
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",CNBC (720p)
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="",CNBC (720p)
 http://cdn.haititivi.com/CNBC/index.m3u8
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",CNBC (720p)
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="",CNBC (720p)
 http://rezofoot.tv/CNBC/index.m3u8
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",CNBC (720p)
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="",CNBC (720p)
 http://108.181.20.255:27347/livehttpplay?channel_id=23115
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",CNBC (1080p)
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="",CNBC (1080p)
 https://gpuserver3.tier1streams.com/CNBC/index.m3u8
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",CNBC (720p)
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="",CNBC (720p)
 https://starlite.best/api/stream/hurt/hurt/livetv.epg/cnbc.usa.us.m3u8
-#EXTINF:-1 tvg-id="CNBCUK.uk@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png",CNBC (1080p)
+#EXTINF:-1 tvg-id="CNBCUK.uk@SD" tvg-name="CNBC (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="",CNBC (1080p)
 https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+
 https://jmp2.uk/plu-61de8d4b8acf6c0007f1c2f3.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg HT (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-name="Bloomberg HT (720p) [Not 24/7]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg HT (720p) [Not 24/7]
 https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg HT (720p)
+#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-name="Bloomberg HT (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg HT (720p)
 https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",BloombergHT (720p)
+#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-name="BloombergHT (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",BloombergHT (720p)
 https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV (1080p)
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV (1080p)
 http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV (720p)
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV (720p)
 http://167.250.126.140:7777/BLOOMBERG-HD/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV (720p)
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV (720p)
 http://206.212.244.63/22/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV + (2160p)
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV + (2160p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV + (2160p)
 https://66e4bbba.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnVFZQbHVzX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV US (720p)
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV US (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV US (720p)
 https://bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+ (1080p)
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+ (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+ (1080p)
 https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV (1080p)
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV (1080p)
 https://gpuserver3.tier1streams.com/BLOOMBERG/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+ (2160p)
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+ (2160p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+ (2160p)
 https://d2d98ykcmmhgd4.cloudfront.net/v1/bloomberg_bloombergtv_2/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+ (720p)
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+ (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+ (720p)
 https://jmp2.uk/plu-61559552dd585f0007321eca.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+ (2160p)
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+ (2160p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+ (2160p)
 https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+
 https://jmp2.uk/plu-61de8fa251cca800076dde41.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+ (720p)
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+ (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+ (720p)
 https://jmp2.uk/plu-54ff7ba69222cb1c2624c584.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus-Poland" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus-Poland" tvg-name="Bloomberg TV+" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+
 https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+ (720p)
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+ (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+ (720p)
 https://jmp2.uk/plu-61de991729cd4a00079f812b.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png",Bloomberg TV+ (720p)
+#EXTINF:-1 tvg-id="BloombergTV.us@Plus" tvg-name="Bloomberg TV+ (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="",Bloomberg TV+ (720p)
 https://jmp2.uk/plu-62b976b93279cb000772c6f9.m3u8
-#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png",Newsmax TV (720p)
+#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-name="Newsmax TV (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" group-title="",Newsmax TV (720p)
 https://amg00217-newsmax-amg00217c2-zeasn-us-2412.playouts.now.amagi.tv/playlist/amg00217-newsmaxmediafast-newsmaxn1-zeasnus/playlist.m3u8
-#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png",Newsmax TV (720p)
+#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-name="Newsmax TV (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" group-title="",Newsmax TV (720p)
 https://a-cdn.klowdtv.com/live2/newsmax_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png",Newsmax TV
+#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-name="Newsmax TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" group-title="",Newsmax TV
 https://dash3.antik.sk/live/test_newsmax_avc/playlist.m3u8
-#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png",Newsmax TV (720p)
+#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-name="Newsmax TV (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" group-title="",Newsmax TV (720p)
 http://40.160.24.53/NEWSMAX/index.m3u8
-#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png",Newsmax TV (720p)
+#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-name="Newsmax TV (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" group-title="",Newsmax TV (720p)
 http://206.212.244.63/128/index.m3u8
-#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png",Newsmax TV (720p)
+#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-name="Newsmax TV (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" group-title="",Newsmax TV (720p)
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
-#EXTINF:-1 tvg-name="Arirang World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/67cfa9368d2d135744732a3aed3baecb3fadcf13/countries/international/arirang-int.png" tvg-id="ArirangWorld.kr" tvg-chno="214" tvg-country="GB" group-title="UK",Arirang World
+#EXTINF:-1 tvg-id="ArirangWorld.kr" tvg-name="Arirang World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/67cfa9368d2d135744732a3aed3baecb3fadcf13/countries/international/arirang-int.png" group-title="UK",Arirang World
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-#EXTINF:-1 tvg-name="Arirang World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/67cfa9368d2d135744732a3aed3baecb3fadcf13/countries/international/arirang-int.png" tvg-id="ArirangWorld.kr" tvg-chno="214" tvg-country="GB" group-title="UK",Arirang World
+#EXTINF:-1 tvg-id="ArirangWorld.kr" tvg-name="Arirang World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/67cfa9368d2d135744732a3aed3baecb3fadcf13/countries/international/arirang-int.png" group-title="UK",Arirang World
 https://dash4.antik.sk/live/test_euronews/playlist.m3u8
-#EXTINF:-1 tvg-id="Euronews.pl@FAST" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png",Euronews (720p)
+#EXTINF:-1 tvg-id="Euronews.pl@FAST" tvg-name="Euronews (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png" group-title="",Euronews (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
-#EXTINF:-1 tvg-id="EuronewsGerman.fr@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png",Euronews (720p)
+#EXTINF:-1 tvg-id="EuronewsGerman.fr@SD" tvg-name="Euronews (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png" group-title="",Euronews (720p)
 https://jmp2.uk/plu-6639d7d4b18d700008da5316.m3u8
-#EXTINF:-1 tvg-id="",Euronews
+#EXTINF:-1 tvg-id="" tvg-name="Euronews" tvg-logo="" group-title="",Euronews
 https://jmp2.uk/plu-61de8e502c8e9400077e5de7.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png",Euronews (720p)
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr@SD" tvg-name="Euronews (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png" group-title="",Euronews (720p)
 https://jmp2.uk/plu-5ca1da6c593a5d78f0e7edce.m3u8
-#EXTINF:-1 tvg-id="Euronews.pl@FAST" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png",Euronews (720p)
+#EXTINF:-1 tvg-id="Euronews.pl@FAST" tvg-name="Euronews (720p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png" group-title="",Euronews (720p)
 https://7060743b4b224241b86325460b14d152.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6769/bitok/eyJzdGlkIjoiMTE3OTllNGEtYmU1OC00ZjQyLTkxOTYtY2VlYWQzZGU2MDJjIiwibWt0IjoicGwiLCJjaCI6Njc2OSwicHRmIjo1fQ==/26235/euronews-pl.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png",Al Jazeera
+#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" group-title="",Al Jazeera
 https://dash4.antik.sk/live/test_aljazeera/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png",Al Jazeera (1080p)
+#EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-name="Al Jazeera (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" group-title="",Al Jazeera (1080p)
 https://amg00222-amg00222c4-amgplt0002.playout.now3.amagi.tv/aljazeera-noscte/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png",Al Jazeera (1080p)
+#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" group-title="",Al Jazeera (1080p)
 https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png",Al Jazeera (1080p)
+#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" group-title="",Al Jazeera (1080p)
 https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png",Al Jazeera (1080p)
+#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" group-title="",Al Jazeera (1080p)
 https://live-hls-apps-aja-v3-fa.getaj.net/AJA/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png",Al Jazeera (1080p)
+#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" group-title="",Al Jazeera (1080p)
 https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeera2.qa@HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png",Al Jazeera 2 (1080p)
+#EXTINF:-1 tvg-id="AlJazeera2.qa@HD" tvg-name="Al Jazeera 2 (1080p)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" group-title="",Al Jazeera 2 (1080p)
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
