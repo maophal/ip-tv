@@ -69,6 +69,24 @@ h1 {
 .header-actions {
     display: flex;
     gap: 1rem;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--glass-border);
+    background: var(--input-bg);
+    color: white;
+    font-family: inherit;
+    width: 250px;
+    transition: all 0.2s ease;
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
 }
 
 .btn {

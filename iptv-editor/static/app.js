@@ -31,8 +31,14 @@ function renderChannels() {
     loading.style.display = 'none';
     container.style.display = 'grid';
     container.innerHTML = '';
+    
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
 
     channels.forEach((ch, index) => {
+        if (searchTerm && !ch.name.toLowerCase().includes(searchTerm) && !(ch.group && ch.group.toLowerCase().includes(searchTerm))) {
+            return; // Skip if it doesn't match search
+        }
+        
         const card = document.createElement('div');
         card.className = 'channel-card';
         card.innerHTML = `
@@ -167,6 +173,8 @@ function showToast(msg, isError = false) {
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 3000);
 }
+
+document.getElementById('search-input').addEventListener('input', renderChannels);
 
 // Start
 loadChannels();
