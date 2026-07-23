@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Channel Editor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="glass-header">
+            <div class="header-content">
+                <h1>IPTV Editor</h1>
+                <div class="header-actions">
+                    <button id="add-channel-btn" class="btn btn-primary">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                        Add Channel
+                    </button>
+                    <button id="save-all-btn" class="btn btn-success">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Save to Server
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="loading-state" id="loading">
+                <div class="spinner"></div>
+                <p>Loading channels...</p>
+            </div>
+            
+            <div class="channels-grid" id="channels-container" style="display: none;">
+                <!-- Channels will be injected here via JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Edit/Add Modal -->
+    <div class="modal-overlay" id="edit-modal">
+        <div class="modal-content glass-panel">
+            <h2 id="modal-title">Edit Channel</h2>
+            <form id="channel-form">
+                <input type="hidden" id="channel-index">
+                
+                <div class="form-group">
+                    <label for="ch-name">Channel Name</label>
+                    <input type="text" id="ch-name" required placeholder="e.g. CNN News">
+                </div>
+                
+                <div class="form-group">
+                    <label for="ch-id">EPG ID (tvg-id)</label>
+                    <input type="text" id="ch-id" required placeholder="e.g. CNN.us">
+                </div>
+                
+                <div class="form-group">
+                    <label for="ch-group">Group Title</label>
+                    <input type="text" id="ch-group" placeholder="e.g. News">
+                </div>
+                
+                <div class="form-group">
+                    <label for="ch-logo">Logo URL</label>
+                    <input type="url" id="ch-logo" placeholder="https://...">
+                    <div class="logo-preview-container">
+                        <img id="logo-preview" src="" alt="Preview" style="display: none;">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ch-url">Stream URL (.m3u8)</label>
+                    <input type="url" id="ch-url" required placeholder="https://...">
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" id="cancel-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Channel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div class="toast" id="toast">Changes saved successfully!</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
