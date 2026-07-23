@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="CNN.us">
+    <display-name>CNN</display-name>
+    <icon src="https://i.imgur.com/vyrc1I1.png" />
+  </channel>
+  <channel id="BBCNews.uk@Europe">
+    <display-name>BBC News (1080p) [Geo-blocked]</display-name>
+  </channel>
+  <channel id="BBCNews.uk@Africa">
+    <display-name>BBC News (720p)</display-name>
+  </channel>
+  <channel id="SkyNews.ie@SD">
+    <display-name>Sky News</display-name>
+  </channel>
+  <channel id="FoxNewsChannel.us@SD">
+    <display-name>Fox News</display-name>
+  </channel>
+  <channel id="FoxNewsRadio.us@SD">
+    <display-name>Fox News</display-name>
+  </channel>
+  <channel id="FoxNewsInternational.us@SD">
+    <display-name>Fox News</display-name>
+  </channel>
+  <channel id="ABCNews.au@Sydney">
+    <display-name>ABC News (720p)</display-name>
+  </channel>
+  <channel id="SABCNews.za@SD">
+    <display-name>SABC News (720p) [Geo-blocked]</display-name>
+  </channel>
+  <channel id="CNBC.us@SD">
+    <display-name>CNBC (720p)</display-name>
+  </channel>
+  <channel id="CNBCUK.uk@SD">
+    <display-name>CNBC (1080p)</display-name>
+  </channel>
+  <channel id="BloombergTV.us@Plus">
+    <display-name>Bloomberg TV+</display-name>
+  </channel>
+  <channel id="BloombergHT.tr@SD">
+    <display-name>Bloomberg HT (720p) [Not 24/7]</display-name>
+  </channel>
+  <channel id="BloombergTV.us@US">
+    <display-name>Bloomberg TV (1080p)</display-name>
+  </channel>
+  <channel id="BloombergTV.us@Plus-Poland">
+    <display-name>Bloomberg TV+</display-name>
+  </channel>
+  <channel id="NewsmaxTV.us@SD">
+    <display-name>Newsmax TV (720p)</display-name>
+  </channel>
+  <channel id="ArirangWorld.kr">
+    <display-name>Arirang World</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/67cfa9368d2d135744732a3aed3baecb3fadcf13/countries/international/arirang-int.png" />
+  </channel>
+  <channel id="Euronews.pl@FAST">
+    <display-name>Euronews (720p)</display-name>
+  </channel>
+  <channel id="EuronewsGerman.fr@SD">
+    <display-name>Euronews (720p)</display-name>
+  </channel>
+  <channel id="EuronewsEnglish.fr@SD">
+    <display-name>Euronews (720p)</display-name>
+  </channel>
+  <channel id="AlJazeera.qa@Arabic">
+    <display-name>Al Jazeera</display-name>
+  </channel>
+  <channel id="AlJazeera.qa@English">
+    <display-name>Al Jazeera (1080p)</display-name>
+  </channel>
+  <channel id="AlJazeera2.qa@HD">
+    <display-name>Al Jazeera 2 (1080p)</display-name>
+  </channel>
+</tv>
