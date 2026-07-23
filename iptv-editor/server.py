@@ -108,9 +108,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         
         for ch_id, c in unique_epg_channels.items():
             name_esc = c["name"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            logo_esc = c["logo"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            
             xml_content.append(f'  <programme start="{start_time}" stop="{end_time}" channel="{ch_id}">')
             xml_content.append(f'    <title>{name_esc} Broadcast</title>')
             xml_content.append(f'    <desc>Live Stream for {name_esc}</desc>')
+            if logo_esc:
+                xml_content.append(f'    <icon src="{logo_esc}" />')
             xml_content.append('  </programme>')
             
         xml_content.append('</tv>')
