@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPTV Channel Editor</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
     <div class="app-container">
@@ -81,9 +82,22 @@
         </div>
     </div>
 
+    <!-- Video Player Modal -->
+    <div class="modal-overlay" id="video-modal">
+        <div class="modal-content glass-panel" style="max-width: 800px; width: 95%;">
+            <h2 id="video-title">Preview Channel</h2>
+            <div class="video-container">
+                <video id="video-player" controls autoplay style="width: 100%; border-radius: 0.5rem; background: #000;"></video>
+            </div>
+            <div class="modal-actions">
+                <button type="button" class="btn btn-secondary" id="close-video-btn">Close Preview</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Notification Toast -->
     <div class="toast" id="toast">Changes saved successfully!</div>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=2"></script>
 </body>
 </html>

@@ -53,6 +53,7 @@ function renderChannels() {
                 ${ch.url}
             </div>
             <div class="card-actions">
+                <button class="btn btn-primary" onclick="watchChannel(${index})" style="margin-right: auto; padding: 0.4rem 0.8rem; font-size: 0.85rem;">Watch</button>
                 <button class="btn btn-edit" onclick="editChannel(${index})">Edit</button>
                 <button class="btn btn-danger" onclick="deleteChannel(${index})">Delete</button>
             </div>
@@ -175,6 +176,36 @@ function showToast(msg, isError = false) {
 }
 
 document.getElementById('search-input').addEventListener('input', renderChannels);
+
+// Video Player Logic
+let hls;
+const videoModal = document.getElementById('video-modal');
+const videoPlayer = document.getElementById('video-player');
+
+function watchChannel(index) {
+    const ch = channels[index];
+    document.getElementById('video-title').innerText = 'Preview: ' + ch.name;
+    videoModal.classList.add('active');
+    
+    if (Hls.isSupported()) {
+        if (hls) hls.destroy();
+        hls = new Hls();
+        hls.loadSource(ch.url);
+        hls.attachMedia(videoPlayer);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => videoPlayer.play());
+    } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+        // Fallback for Safari native HLS
+        videoPlayer.src = ch.url;
+        videoPlayer.addEventListener('loadedmetadata', () => videoPlayer.play());
+    }
+}
+
+document.getElementById('close-video-btn').addEventListener('click', () => {
+    videoPlayer.pause();
+    videoPlayer.src = "";
+    if (hls) hls.destroy();
+    videoModal.classList.remove('active');
+});
 
 // Start
 loadChannels();
