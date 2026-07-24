@@ -3,7 +3,17 @@ import socketserver
 import json
 import os
 import re
+import urllib.request
+import urllib.parse
 from datetime import datetime, timedelta
+import ssl
+import shutil
+from http.server import ThreadingHTTPServer
+
+# Ignore SSL errors for proxy
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
 
 PORT = 8000
 DIRECTORY = "static"
@@ -21,8 +31,58 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.end_headers()
             channels = self.read_channels()
             self.wfile.write(json.dumps(channels).encode('utf-8'))
+        elif self.path.startswith('/proxy'):
+            self.handle_proxy()
         else:
             return http.server.SimpleHTTPRequestHandler.do_GET(self)
+
+    def handle_proxy(self):
+        parsed_path = urllib.parse.urlparse(self.path)
+        query = urllib.parse.parse_qs(parsed_path.query)
+        target_url = query.get('url', [''])[0]
+        
+        if not target_url:
+            self.send_error(400, "Missing url parameter")
+            return
+            
+        try:
+            req = urllib.request.Request(target_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'})
+            with urllib.request.urlopen(req, context=ctx, timeout=10) as response:
+                content_type = response.getheader('Content-Type') or 'application/octet-stream'
+                
+                self.send_response(200)
+                self.send_header('Content-Type', content_type)
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                
+                if 'mpegurl' in content_type.lower() or target_url.endswith('.m3u8') or target_url.endswith('.m3u'):
+                    data = response.read().decode('utf-8', errors='ignore')
+                    new_lines = []
+                    for line in data.splitlines():
+                        if line.startswith('#'):
+                            def replacer(match):
+                                uri = match.group(1)
+                                if not uri.startswith('data:') and not uri.startswith('http'):
+                                    abs_url = urllib.parse.urljoin(target_url, uri)
+                                    return f'URI="/proxy?url={urllib.parse.quote(abs_url)}"'
+                                elif uri.startswith('http'):
+                                    return f'URI="/proxy?url={urllib.parse.quote(uri)}"'
+                                return match.group(0)
+                            line = re.sub(r'URI="([^"]+)"', replacer, line)
+                            new_lines.append(line)
+                        elif line.strip():
+                            uri = line.strip()
+                            if not uri.startswith('http'):
+                                abs_url = urllib.parse.urljoin(target_url, uri)
+                                proxied_url = f"/proxy?url={urllib.parse.quote(abs_url)}"
+                            else:
+                                proxied_url = f"/proxy?url={urllib.parse.quote(uri)}"
+                            new_lines.append(proxied_url)
+                    self.wfile.write('\n'.join(new_lines).encode('utf-8'))
+                else:
+                    shutil.copyfileobj(response, self.wfile)
+        except Exception as e:
+            self.send_error(500, str(e))
 
     def do_POST(self):
         if self.path == '/api/channels':
@@ -123,6 +183,6 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             f.write('\n'.join(xml_content))
 
 if __name__ == "__main__":
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    with ThreadingHTTPServer(("", PORT), Handler) as httpd:
         print(f"Serving at port {PORT}")
         httpd.serve_forever()

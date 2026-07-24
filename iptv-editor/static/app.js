@@ -196,7 +196,11 @@ function watchChannel(index) {
     const ch = channels[index];
     document.getElementById('video-title').innerText = 'Preview: ' + ch.name;
     videoLog.innerHTML = '';
-    logVideo('Connecting to ' + ch.url + '...');
+    
+    // Route stream through local Python proxy to bypass CORS
+    const proxiedUrl = '/proxy?url=' + encodeURIComponent(ch.url);
+    
+    logVideo('Connecting to proxy for ' + ch.url + '...');
     videoModal.classList.add('active');
     
     if (Hls.isSupported()) {
@@ -212,25 +216,25 @@ function watchChannel(index) {
             const time = new Date().toLocaleTimeString();
             logVideo(`[${time}] Error: ${errorType} - ${errorDetails}`, 'error');
             if (errorDetails === 'manifestLoadError') {
-                logVideo(`-> This usually means the stream is offline, geo-blocked, or the browser is blocking it due to CORS.`, 'error');
+                logVideo(`-> Proxy failed to load the stream. It may be offline or geo-blocked.`, 'error');
             }
         });
 
-        hls.loadSource(ch.url);
+        hls.loadSource(proxiedUrl);
         hls.attachMedia(videoPlayer);
         hls.on(Hls.Events.MANIFEST_PARSED, () => {
-            logVideo('Stream loaded! Playing...', 'success');
+            logVideo('Stream loaded from proxy! Playing...', 'success');
             videoPlayer.play();
         });
     } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
         // Fallback for Safari native HLS
-        videoPlayer.src = ch.url;
+        videoPlayer.src = proxiedUrl;
         videoPlayer.addEventListener('loadedmetadata', () => {
-            logVideo('Stream loaded! Playing...', 'success');
+            logVideo('Stream loaded from proxy! Playing...', 'success');
             videoPlayer.play();
         });
         videoPlayer.addEventListener('error', (e) => {
-            logVideo(`Native Player Error: The stream could not be loaded.`, 'error');
+            logVideo(`Native Player Error: The stream could not be loaded via proxy.`, 'error');
         });
     }
 }
