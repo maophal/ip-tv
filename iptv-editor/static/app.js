@@ -181,28 +181,64 @@ document.getElementById('search-input').addEventListener('input', renderChannels
 let hls;
 const videoModal = document.getElementById('video-modal');
 const videoPlayer = document.getElementById('video-player');
+const videoLog = document.getElementById('video-log');
+
+function logVideo(msg, type = 'info') {
+    let color = '#fff';
+    if (type === 'error') color = '#ef4444'; // red
+    if (type === 'success') color = '#22c55e'; // green
+    
+    videoLog.innerHTML += `<div style="color: ${color};">${msg}</div>`;
+    videoLog.scrollTop = videoLog.scrollHeight;
+}
 
 function watchChannel(index) {
     const ch = channels[index];
     document.getElementById('video-title').innerText = 'Preview: ' + ch.name;
+    videoLog.innerHTML = '';
+    logVideo('Connecting to ' + ch.url + '...');
     videoModal.classList.add('active');
     
     if (Hls.isSupported()) {
         if (hls) hls.destroy();
-        hls = new Hls();
+        hls = new Hls({
+            debug: false
+        });
+        
+        hls.on(Hls.Events.ERROR, function (event, data) {
+            let errorType = data.type;
+            let errorDetails = data.details;
+            
+            const time = new Date().toLocaleTimeString();
+            logVideo(`[${time}] Error: ${errorType} - ${errorDetails}`, 'error');
+            if (errorDetails === 'manifestLoadError') {
+                logVideo(`-> This usually means the stream is offline, geo-blocked, or the browser is blocking it due to CORS.`, 'error');
+            }
+        });
+
         hls.loadSource(ch.url);
         hls.attachMedia(videoPlayer);
-        hls.on(Hls.Events.MANIFEST_PARSED, () => videoPlayer.play());
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+            logVideo('Stream loaded! Playing...', 'success');
+            videoPlayer.play();
+        });
     } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
         // Fallback for Safari native HLS
         videoPlayer.src = ch.url;
-        videoPlayer.addEventListener('loadedmetadata', () => videoPlayer.play());
+        videoPlayer.addEventListener('loadedmetadata', () => {
+            logVideo('Stream loaded! Playing...', 'success');
+            videoPlayer.play();
+        });
+        videoPlayer.addEventListener('error', (e) => {
+            logVideo(`Native Player Error: The stream could not be loaded.`, 'error');
+        });
     }
 }
 
 document.getElementById('close-video-btn').addEventListener('click', () => {
     videoPlayer.pause();
     videoPlayer.src = "";
+    videoLog.innerHTML = "";
     if (hls) hls.destroy();
     videoModal.classList.remove('active');
 });
