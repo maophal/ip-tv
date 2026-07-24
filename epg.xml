@@ -1,187 +1,1082 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-  <channel id="CNN.us">
-    <display-name>CNN</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png" />
+  <channel id="A2CNN.al">
+    <display-name>A2 CNN Albania</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/a2_cnn_albania.png" />
   </channel>
-  <channel id="BBCNews.uk@Europe">
-    <display-name>BBC News (1080p) [Geo-blocked]</display-name>
-    <icon src="https://images.icon-icons.com/70/PNG/512/bbc_news_14062.png" />
+  <channel id="BBCNews.uk">
+    <display-name>BBC News Ⓖ</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bbc_news.png" />
   </channel>
-  <channel id="BBCNews.uk@Africa">
-    <display-name>BBC News (720p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" />
-  </channel>
-  <channel id="SkyNews.ie@SD">
+  <channel id="SkyNews.uk">
     <display-name>Sky News</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png" />
   </channel>
-  <channel id="FoxNewsChannel.us@SD">
+  <channel id="FoxWeather.us">
     <display-name>Fox News</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" />
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/fox_news.png" />
   </channel>
-  <channel id="FoxNewsRadio.us@SD">
-    <display-name>Fox News</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" />
+  <channel id="CBSNews.us">
+    <display-name>CBS News</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cbs_news.png" />
   </channel>
-  <channel id="FoxNewsInternational.us@SD">
-    <display-name>Fox News</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-news-us.png" />
+  <channel id="ABCNewsAlbania.al">
+    <display-name>ABC News Albania Ⓣ</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/abc_news_albania.png" />
   </channel>
-  <channel id="ABCNews.au@Sydney">
-    <display-name>ABC News (720p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/australia/abc-news-au.png" />
+  <channel id="CNBCIndonesia.am">
+    <display-name>CNBC Indonesia</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cnbc_indonesia.png" />
   </channel>
-  <channel id="SABCNews.za@SD">
-    <display-name>SABC News (720p) [Geo-blocked]</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/australia/abc-news-au.png" />
+  <channel id="BloombergTVEurope.uk">
+    <display-name>Bloomberg TV</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bloomberg_tv.png" />
   </channel>
-  <channel id="CNBC.us@SD">
-    <display-name>CNBC (720p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" />
+  <channel id="KPVMLD255.us@SD">
+    <display-name>KPVM Newsmax 2</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kpvm_newsmax_2.png" />
   </channel>
-  <channel id="CNBCUK.uk@SD">
-    <display-name>CNBC (1080p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" />
+  <channel id="ArirangTV.kr">
+    <display-name>Arirang</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/arirang.png" />
   </channel>
-  <channel id="BloombergTV.us@Plus">
-    <display-name>Bloomberg TV+</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" />
+  <channel id="EuronewsAlbania.al">
+    <display-name>Euronews Albania Ⓨ</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/euronews_albania.png" />
   </channel>
-  <channel id="BloombergHT.tr@SD">
-    <display-name>Bloomberg HT (720p) [Not 24/7]</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" />
+  <channel id="AlJazeeraBalkans.ba">
+    <display-name>Al Jazeera Balkans</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/al_jazeera_balkans.png" />
   </channel>
-  <channel id="BloombergTV.us@US">
-    <display-name>Bloomberg TV (1080p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" />
+  <channel id="ESPNDeportes.us@SD">
+    <display-name>ESPN Deportes (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/espn_deportes__720p.png" />
   </channel>
-  <channel id="BloombergTV.us@Plus-Poland">
-    <display-name>Bloomberg TV+</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" />
+  <channel id="FoxSports1.us@HD">
+    <display-name>Fox Sports 1 (720p)</display-name>
   </channel>
-  <channel id="NewsmaxTV.us@SD">
-    <display-name>Newsmax TV (720p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" />
+  <channel id="beINSportsUSA.us@SD">
+    <display-name>beIN Sports USA (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bein_sports_usa__720p.png" />
   </channel>
-  <channel id="ArirangWorld.kr">
-    <display-name>Arirang World</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/67cfa9368d2d135744732a3aed3baecb3fadcf13/countries/international/arirang-int.png" />
+  <channel id="FootPlus.fr@SD">
+    <display-name>Foot+</display-name>
   </channel>
-  <channel id="Euronews.pl@FAST">
-    <display-name>Euronews (720p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png" />
+  <channel id="CartoonNetworkArabic.ae">
+    <display-name>Cartoon Network Arabic</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cartoon_network_arabic.png" />
   </channel>
-  <channel id="EuronewsGerman.fr@SD">
-    <display-name>Euronews (720p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png" />
+  <channel id="DisneyChannel.cz@SD">
+    <display-name>Disney Channel</display-name>
   </channel>
-  <channel id="EuronewsEnglish.fr@SD">
-    <display-name>Euronews (720p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euronews-int.png" />
+  <channel id="DisneyJunior.in@SD">
+    <display-name>Disney Junior (576p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/disney_junior__576p.png" />
   </channel>
-  <channel id="AlJazeera.qa@Arabic">
-    <display-name>Al Jazeera</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" />
+  <channel id="DisneyXD.us@East">
+    <display-name>Disney XD (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/disney_xd__720p.png" />
   </channel>
-  <channel id="AlJazeera.qa@English">
-    <display-name>Al Jazeera (1080p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" />
+  <channel id="NickJrClub.de@DACH">
+    <display-name>Nick Jr. Club (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nick_jr__club__720p.png" />
   </channel>
-  <channel id="AlJazeera2.qa@HD">
-    <display-name>Al Jazeera 2 (1080p)</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/al-jazeera-int.png" />
+  <channel id="NickelodeonClassics.de@DACH">
+    <display-name>Nickelodeon Classics (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nickelodeon_classics__720p.png" />
   </channel>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="CNN.us">
-    <title>CNN Broadcast</title>
-    <desc>Live Stream for CNN</desc>
+  <channel id="Discovery.Channel.it">
+    <display-name>Discovery Channel</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/discovery_channel.png" />
+  </channel>
+  <channel id="Food.Network.it">
+    <display-name>Food Network</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/food_network.png" />
+  </channel>
+  <channel id="CSHistory.cz">
+    <display-name>CS History</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cs_history.png" />
+  </channel>
+  <channel id="History2LatinAmerica.us@Panregional">
+    <display-name>History 2 Latin America (1080p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/history_2_latin_america__1080p.png" />
+  </channel>
+  <channel id="NationalGeographicFinland.fi">
+    <display-name>National Geographic Finland Ⓖ</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/national_geographic_finland.png" />
+  </channel>
+  <channel id="BBCOne.uk@LondonHD">
+    <display-name>BBC One London HD (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bbc_one_london_hd__720p.png" />
+  </channel>
+  <channel id="BBCTwo.uk@HD">
+    <display-name>BBC Two HD (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bbc_two_hd__720p.png" />
+  </channel>
+  <channel id="BBCThreeCBBC.uk@HD">
+    <display-name>BBC Three/CBBC (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bbc_three_cbbc__720p.png" />
+  </channel>
+  <channel id="ITV.ua">
+    <display-name>ITV</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/itv.png" />
+  </channel>
+  <channel id="Channel4.uk">
+    <display-name>Channel 4 Ⓢ</display-name>
+  </channel>
+  <channel id="France2.fr@SD">
+    <display-name>France 2 (1080p)</display-name>
+  </channel>
+  <channel id="France4.fr@SD">
+    <display-name>France 4</display-name>
+  </channel>
+  <channel id="France5.fr@SD">
+    <display-name>France 5 (1080p)</display-name>
+  </channel>
+  <channel id="CanalPlusCinemas.fr@SD">
+    <display-name>Canal+ Cinemas (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/canal__cinemas__720p.png" />
+  </channel>
+  <channel id="CNews.fr@SD">
+    <display-name>CNews (1080p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cnews__1080p___geo_blocked.png" />
+  </channel>
+  <channel id="CStar.fr@SD">
+    <display-name>C Star (477p)</display-name>
+  </channel>
+  <channel id="arte.fr@SD">
+    <display-name>Arte (720p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/arte__720p___geo_blocked.png" />
+  </channel>
+  <channel id="MCMPop.fr@SD">
+    <display-name>MCM Pop</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/mcm_pop.png" />
+  </channel>
+  <channel id="Gong.fr@SD">
+    <display-name>Gong (1080p)</display-name>
+  </channel>
+  <channel id="W9.fr@SD">
+    <display-name>W9 (1080p)</display-name>
+  </channel>
+  <channel id="Manga.it">
+    <display-name>MAN-GA</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/man_ga.png" />
+  </channel>
+  <channel id="LEquipe.fr@SD">
+    <display-name>L'Equipe (1080p)</display-name>
+  </channel>
+  <channel id="RTS2.rs">
+    <display-name>RTS 2</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rts_2.png" />
+  </channel>
+  <channel id="EuronewsFrench.fr">
+    <display-name>Euronews Français Ⓨ</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/euronews_fran_ais.png" />
+  </channel>
+  <channel id="RTLCroatia.hr">
+    <display-name>RTL</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rtl.png" />
+  </channel>
+  <channel id="BFMBusiness.fr@SD">
+    <display-name>BFM Business (576p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bfm_business__576p.png" />
+  </channel>
+  <channel id="i24NEWSEnglishWorld.il">
+    <display-name>i24 News</display-name>
+  </channel>
+  <channel id="LCI.fr@HD">
+    <display-name>LCI HD (1080p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/lci_hd__1080p.png" />
+  </channel>
+  <channel id="TV5MondeAfrica.fr@SD">
+    <display-name>TV5Monde Africa (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/tv5monde_africa__720p.png" />
+  </channel>
+  <channel id="MTVLive.us@SD">
+    <display-name>MTV Live (1080p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/mtv_live__1080p.png" />
+  </channel>
+  <channel id="4Music.fr@SD">
+    <display-name>4 Music</display-name>
+  </channel>
+  <channel id="RTL2Croatia.hr">
+    <display-name>RTL 2</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rtl_2.png" />
+  </channel>
+  <channel id="ZDF.de@SD">
+    <display-name>ZDF (720p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/zdf__720p___geo_blocked.png" />
+  </channel>
+  <channel id="SAT1Gold.de@SD">
+    <display-name>SAT.1 Gold (576p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/sat_1_gold__576p.png" />
+  </channel>
+  <channel id="Rai1.it@SD">
+    <display-name>Rai 1 (576p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rai_1__576p___geo_blocked.png" />
+  </channel>
+  <channel id="Rai3.it@HD">
+    <display-name>Rai 3 (576p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rai_3__576p___geo_blocked.png" />
+  </channel>
+  <channel id="rai_sport_2">
+    <display-name>Rai Sport 2</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rai_sport_2.png" />
+  </channel>
+  <channel id="Italia1.it@SD">
+    <display-name>Italia 1 [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/italia_1__geo_blocked.png" />
+  </channel>
+  <channel id="Goldmines.in@SD">
+    <display-name>Goldmines (576p)</display-name>
+  </channel>
+  <channel id="StarGold2.in@SD">
+    <display-name>Star Gold 2 (576p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/star_gold_2__576p.png" />
+  </channel>
+  <channel id="StarSports2.in@HD">
+    <display-name>Star Sports 2 HD (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/star_sports_2_hd__720p.png" />
+  </channel>
+  <channel id="StarSports1.in@SD">
+    <display-name>Star Sports 1 (720p)</display-name>
+  </channel>
+  <channel id="SonyMax2.in@SD">
+    <display-name>Sony Max 2 (576p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/sony_max_2__576p.png" />
+  </channel>
+  <channel id="A2.ru@SD">
+    <display-name>Amedia 2 (576p)</display-name>
+  </channel>
+  <channel id="Astrahan24.ru@SD">
+    <display-name>Астрахань 24 (720p)</display-name>
+  </channel>
+  <channel id="RT.ru@SD">
+    <display-name>RT News (1080p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rt_news__1080p___geo_blocked.png" />
+  </channel>
+  <channel id="Italia2.it@SD">
+    <display-name>Italia 2 (480p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/italia_2__480p___geo_blocked.png" />
+  </channel>
+  <channel id="La1.es@SD">
+    <display-name>La 1 (720p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/la_1__720p___geo_blocked.png" />
+  </channel>
+  <channel id="Clan.es@SD">
+    <display-name>Clan TVE (1080p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/clan_tve__1080p___geo_blocked.png" />
+  </channel>
+  <channel id="AmediaHit.ru@SD">
+    <display-name>Amedia Hit (1080p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/amedia_hit__1080p.png" />
+  </channel>
+  <channel id="LaLigaHypermotion.es@SD">
+    <display-name>LaLiga Hypermotion (1080p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/laliga_hypermotion__1080p.png" />
+  </channel>
+  <channel id="24Horas.es@SD">
+    <display-name>Canal 24 Horas (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/canal_24_horas__720p.png" />
+  </channel>
+  <channel id="KBSStory.kr">
+    <display-name>KBS Story</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_story.png" />
+  </channel>
+  <channel id="TVK.kh@SD">
+    <display-name>TVK (720p)</display-name>
+  </channel>
+  <channel id="TVK2.kh@SD">
+    <display-name>TVK 2 (720p)</display-name>
+  </channel>
+  <channel id="HangMeasHDTV.kh@SD">
+    <display-name>Hang Meas HDTV (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/hang_meas_hdtv__720p.png" />
+  </channel>
+  <channel id="RasmeyHangMeasHDTV.kh@SD">
+    <display-name>Rasmey Hang Meas HDTV (720p) [Not 24/7]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rasmey_hang_meas_hdtv__720p___not_24_7.png" />
+  </channel>
+  <channel id="MSJTV.kh@SD">
+    <display-name>MSJ TV (1080p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/msj_tv__1080p.png" />
+  </channel>
+  <channel id="ApsaraTV11.kh@SD">
+    <display-name>Apsara TV11 (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/apsara_tv11__720p.png" />
+  </channel>
+  <channel id="NTV.kh@SD">
+    <display-name>NTV</display-name>
+  </channel>
+  <channel id="BTVNews.kh@SD">
+    <display-name>BTV News (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/btv_news__720p.png" />
+  </channel>
+  <channel id="SEATV.kh@SD">
+    <display-name>SEATV (1080p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/seatv__1080p.png" />
+  </channel>
+  <channel id="BayonTV.kh@SD">
+    <display-name>Bayon TV</display-name>
+  </channel>
+  <channel id="FreshNews.kh@SD">
+    <display-name>Fresh News</display-name>
+  </channel>
+  <channel id="JORXDTV.jp">
+    <display-name>TBSテレビ</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/tbs.png" />
+  </channel>
+  <channel id="JOAXDTV.jp">
+    <display-name>日本テレビ</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/.png" />
+  </channel>
+  <channel id="NHKBS.jp">
+    <display-name>NHK BS</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nhk_bs.png" />
+  </channel>
+  <channel id="JOABDTV.jp">
+    <display-name>NHK Eテレ（東京）</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nhk_e.png" />
+  </channel>
+  <channel id="JOAKDTV.jp">
+    <display-name>NHK総合 (東京)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nhk.png" />
+  </channel>
+  <channel id="KBS1TV.kr">
+    <display-name>KBS 1TV</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_1tv.png" />
+  </channel>
+  <channel id="KBS2TV.kr">
+    <display-name>KBS 2TV</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_2tv.png" />
+  </channel>
+  <channel id="KBSDrama.kr">
+    <display-name>KBS Drama</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_drama.png" />
+  </channel>
+  <channel id="KBSJoy.kr">
+    <display-name>KBS Joy</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_joy.png" />
+  </channel>
+  <channel id="KBSNewsD.kr">
+    <display-name>KBS News D</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_news_d.png" />
+  </channel>
+  <channel id="ThaiPBS.th@SD">
+    <display-name>Thai PBS (1080p) [Not 24/7]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/thai_pbs__1080p___not_24_7.png" />
+  </channel>
+  <channel id="3HD.th@SD">
+    <display-name>3HD</display-name>
+  </channel>
+  <channel id="Channel8.th@SD">
+    <display-name>Channel 8 (1080p) [Not 24/7]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/channel_8__1080p___not_24_7.png" />
+  </channel>
+  <channel id="News1.th@SD">
+    <display-name>ASTV News 1 (720p) [Not 24/7]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/astv_news_1__720p___not_24_7.png" />
+  </channel>
+  <channel id="DLTV1.th@SD">
+    <display-name>DLTV 1 (1080p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/dltv_1__1080p.png" />
+  </channel>
+  <channel id="CCTV9.cn@SD">
+    <display-name>CCTV-9 (576i)</display-name>
+  </channel>
+  <channel id="VTV1.vn@HD">
+    <display-name>VTV1 HD (1080p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/vtv1_hd__1080p___geo_blocked.png" />
+  </channel>
+  <channel id="VTV5.vn@HD">
+    <display-name>VTV5 HD (1080p) [Geo-blocked]</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/vtv5_hd__1080p___geo_blocked.png" />
+  </channel>
+  <channel id="ZhejiangSatelliteTV.cn@SD">
+    <display-name>Zhejiang Satellite TV</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/zhejiang_satellite_tv.png" />
+  </channel>
+  <channel id="ABNAndhraJyoti.in@SD">
+    <display-name>ABN Andhra Jyoti (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/abn_andhra_jyoti__720p.png" />
+  </channel>
+  <channel id="tnt_sport_1">
+    <display-name>TNT SPORT 1 🇬🇧</display-name>
+  </channel>
+  <channel id="tnt_sport_2">
+    <display-name>TNT SPORT 2 🇬🇧</display-name>
+  </channel>
+  <channel id="tnt_sport_3">
+    <display-name>TNT SPORT 3 🇬🇧</display-name>
+  </channel>
+  <channel id="sky_sports_f1">
+    <display-name>Sky sports f1</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/sky_sports_f1.png" />
+  </channel>
+  <channel id="british_eurosports_1">
+    <display-name>British eurosports 1</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/british_eurosports_1.png" />
+  </channel>
+  <channel id="british_eurosport_2">
+    <display-name>British eurosport 2</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/british_eurosport_2.png" />
+  </channel>
+  <channel id="HBTV.us@SD">
+    <display-name>Huntington Beach TV Channel 3 (720p)</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/huntington_beach_tv_channel_3__720p.png" />
+  </channel>
+  <channel id="htv7">
+    <display-name>HTV7</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/htv7.png" />
+  </channel>
+  <channel id="fr__bein_sports_1_hd">
+    <display-name>|FR| BEIN SPORTS 1 HD</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/fr__bein_sports_1_hd.png" />
+  </channel>
+  <channel id="fr__bein_sports_2_hd">
+    <display-name>|FR| BEIN SPORTS 2 HD</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/fr__bein_sports_2_hd.png" />
+  </channel>
+  <channel id="fr__bein_sports_3_hd">
+    <display-name>|FR| BEIN SPORTS 3 HD</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/fr__bein_sports_3_hd.png" />
+  </channel>
+  <channel id="uk__sky_sport_football">
+    <display-name>Uk- Sky Sport Football</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/uk__sky_sport_football.png" />
+  </channel>
+  <channel id="uk__sky_sports_premier_league_hd">
+    <display-name>Uk- Sky Sports Premier League HD</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/uk__sky_sports_premier_league_hd.png" />
+  </channel>
+  <channel id="de__dazn__1_fhd">
+    <display-name>De- DAZN  1 FHD</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/de__dazn__1_fhd.png" />
+  </channel>
+  <channel id="hbo_hd">
+    <display-name>HBO HD</display-name>
+  </channel>
+  <channel id="hbo_hd_720p">
+    <display-name>HBO HD 720p</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/hbo_hd_720p.png" />
+  </channel>
+  <channel id="hbo2_hd">
+    <display-name>HBO2 HD</display-name>
+  </channel>
+  <channel id="hbo2_hd_720p">
+    <display-name>HBO2 HD 720p</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/hbo2_hd_720p.png" />
+  </channel>
+  <channel id="hbo3_hd">
+    <display-name>HBO3 HD</display-name>
+  </channel>
+  <channel id="mtv_base">
+    <display-name>MTV Base</display-name>
+  </channel>
+  <channel id="MTVPlutoTV.us">
+    <display-name>MTV Pluto TV</display-name>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/mtv_pluto_tv.png" />
+  </channel>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="A2CNN.al">
+    <title>A2 CNN Albania Broadcast</title>
+    <desc>Live Stream for A2 CNN Albania</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/a2_cnn_albania.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="BBCNews.uk@Europe">
-    <title>BBC News (1080p) [Geo-blocked] Broadcast</title>
-    <desc>Live Stream for BBC News (1080p) [Geo-blocked]</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="BBCNews.uk">
+    <title>BBC News Ⓖ Broadcast</title>
+    <desc>Live Stream for BBC News Ⓖ</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bbc_news.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="BBCNews.uk@Africa">
-    <title>BBC News (720p) Broadcast</title>
-    <desc>Live Stream for BBC News (720p)</desc>
-  </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="SkyNews.ie@SD">
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="SkyNews.uk">
     <title>Sky News Broadcast</title>
     <desc>Live Stream for Sky News</desc>
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="FoxNewsChannel.us@SD">
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="FoxWeather.us">
     <title>Fox News Broadcast</title>
     <desc>Live Stream for Fox News</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/fox_news.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="FoxNewsRadio.us@SD">
-    <title>Fox News Broadcast</title>
-    <desc>Live Stream for Fox News</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="CBSNews.us">
+    <title>CBS News Broadcast</title>
+    <desc>Live Stream for CBS News</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cbs_news.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="FoxNewsInternational.us@SD">
-    <title>Fox News Broadcast</title>
-    <desc>Live Stream for Fox News</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ABCNewsAlbania.al">
+    <title>ABC News Albania Ⓣ Broadcast</title>
+    <desc>Live Stream for ABC News Albania Ⓣ</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/abc_news_albania.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="ABCNews.au@Sydney">
-    <title>ABC News (720p) Broadcast</title>
-    <desc>Live Stream for ABC News (720p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="CNBCIndonesia.am">
+    <title>CNBC Indonesia Broadcast</title>
+    <desc>Live Stream for CNBC Indonesia</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cnbc_indonesia.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="SABCNews.za@SD">
-    <title>SABC News (720p) [Geo-blocked] Broadcast</title>
-    <desc>Live Stream for SABC News (720p) [Geo-blocked]</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="BloombergTVEurope.uk">
+    <title>Bloomberg TV Broadcast</title>
+    <desc>Live Stream for Bloomberg TV</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bloomberg_tv.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="CNBC.us@SD">
-    <title>CNBC (720p) Broadcast</title>
-    <desc>Live Stream for CNBC (720p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="KPVMLD255.us@SD">
+    <title>KPVM Newsmax 2 Broadcast</title>
+    <desc>Live Stream for KPVM Newsmax 2</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kpvm_newsmax_2.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="CNBCUK.uk@SD">
-    <title>CNBC (1080p) Broadcast</title>
-    <desc>Live Stream for CNBC (1080p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ArirangTV.kr">
+    <title>Arirang Broadcast</title>
+    <desc>Live Stream for Arirang</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/arirang.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="BloombergTV.us@Plus">
-    <title>Bloomberg TV+ Broadcast</title>
-    <desc>Live Stream for Bloomberg TV+</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="EuronewsAlbania.al">
+    <title>Euronews Albania Ⓨ Broadcast</title>
+    <desc>Live Stream for Euronews Albania Ⓨ</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/euronews_albania.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="BloombergHT.tr@SD">
-    <title>Bloomberg HT (720p) [Not 24/7] Broadcast</title>
-    <desc>Live Stream for Bloomberg HT (720p) [Not 24/7]</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="AlJazeeraBalkans.ba">
+    <title>Al Jazeera Balkans Broadcast</title>
+    <desc>Live Stream for Al Jazeera Balkans</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/al_jazeera_balkans.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="BloombergTV.us@US">
-    <title>Bloomberg TV (1080p) Broadcast</title>
-    <desc>Live Stream for Bloomberg TV (1080p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ESPNDeportes.us@SD">
+    <title>ESPN Deportes (720p) Broadcast</title>
+    <desc>Live Stream for ESPN Deportes (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/espn_deportes__720p.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="BloombergTV.us@Plus-Poland">
-    <title>Bloomberg TV+ Broadcast</title>
-    <desc>Live Stream for Bloomberg TV+</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="FoxSports1.us@HD">
+    <title>Fox Sports 1 (720p) Broadcast</title>
+    <desc>Live Stream for Fox Sports 1 (720p)</desc>
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="NewsmaxTV.us@SD">
-    <title>Newsmax TV (720p) Broadcast</title>
-    <desc>Live Stream for Newsmax TV (720p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="beINSportsUSA.us@SD">
+    <title>beIN Sports USA (720p) Broadcast</title>
+    <desc>Live Stream for beIN Sports USA (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bein_sports_usa__720p.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="ArirangWorld.kr">
-    <title>Arirang World Broadcast</title>
-    <desc>Live Stream for Arirang World</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="FootPlus.fr@SD">
+    <title>Foot+ Broadcast</title>
+    <desc>Live Stream for Foot+</desc>
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="Euronews.pl@FAST">
-    <title>Euronews (720p) Broadcast</title>
-    <desc>Live Stream for Euronews (720p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="CartoonNetworkArabic.ae">
+    <title>Cartoon Network Arabic Broadcast</title>
+    <desc>Live Stream for Cartoon Network Arabic</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cartoon_network_arabic.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="EuronewsGerman.fr@SD">
-    <title>Euronews (720p) Broadcast</title>
-    <desc>Live Stream for Euronews (720p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="DisneyChannel.cz@SD">
+    <title>Disney Channel Broadcast</title>
+    <desc>Live Stream for Disney Channel</desc>
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="EuronewsEnglish.fr@SD">
-    <title>Euronews (720p) Broadcast</title>
-    <desc>Live Stream for Euronews (720p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="DisneyJunior.in@SD">
+    <title>Disney Junior (576p) Broadcast</title>
+    <desc>Live Stream for Disney Junior (576p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/disney_junior__576p.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="AlJazeera.qa@Arabic">
-    <title>Al Jazeera Broadcast</title>
-    <desc>Live Stream for Al Jazeera</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="DisneyXD.us@East">
+    <title>Disney XD (720p) Broadcast</title>
+    <desc>Live Stream for Disney XD (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/disney_xd__720p.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="AlJazeera.qa@English">
-    <title>Al Jazeera (1080p) Broadcast</title>
-    <desc>Live Stream for Al Jazeera (1080p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="NickJrClub.de@DACH">
+    <title>Nick Jr. Club (720p) Broadcast</title>
+    <desc>Live Stream for Nick Jr. Club (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nick_jr__club__720p.png" />
   </programme>
-  <programme start="20260723095756 +0000" stop="20260730095756 +0000" channel="AlJazeera2.qa@HD">
-    <title>Al Jazeera 2 (1080p) Broadcast</title>
-    <desc>Live Stream for Al Jazeera 2 (1080p)</desc>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="NickelodeonClassics.de@DACH">
+    <title>Nickelodeon Classics (720p) Broadcast</title>
+    <desc>Live Stream for Nickelodeon Classics (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nickelodeon_classics__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Discovery.Channel.it">
+    <title>Discovery Channel Broadcast</title>
+    <desc>Live Stream for Discovery Channel</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/discovery_channel.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Food.Network.it">
+    <title>Food Network Broadcast</title>
+    <desc>Live Stream for Food Network</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/food_network.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="CSHistory.cz">
+    <title>CS History Broadcast</title>
+    <desc>Live Stream for CS History</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cs_history.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="History2LatinAmerica.us@Panregional">
+    <title>History 2 Latin America (1080p) Broadcast</title>
+    <desc>Live Stream for History 2 Latin America (1080p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/history_2_latin_america__1080p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="NationalGeographicFinland.fi">
+    <title>National Geographic Finland Ⓖ Broadcast</title>
+    <desc>Live Stream for National Geographic Finland Ⓖ</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/national_geographic_finland.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="BBCOne.uk@LondonHD">
+    <title>BBC One London HD (720p) Broadcast</title>
+    <desc>Live Stream for BBC One London HD (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bbc_one_london_hd__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="BBCTwo.uk@HD">
+    <title>BBC Two HD (720p) Broadcast</title>
+    <desc>Live Stream for BBC Two HD (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bbc_two_hd__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="BBCThreeCBBC.uk@HD">
+    <title>BBC Three/CBBC (720p) Broadcast</title>
+    <desc>Live Stream for BBC Three/CBBC (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bbc_three_cbbc__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ITV.ua">
+    <title>ITV Broadcast</title>
+    <desc>Live Stream for ITV</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/itv.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Channel4.uk">
+    <title>Channel 4 Ⓢ Broadcast</title>
+    <desc>Live Stream for Channel 4 Ⓢ</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="France2.fr@SD">
+    <title>France 2 (1080p) Broadcast</title>
+    <desc>Live Stream for France 2 (1080p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="France4.fr@SD">
+    <title>France 4 Broadcast</title>
+    <desc>Live Stream for France 4</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="France5.fr@SD">
+    <title>France 5 (1080p) Broadcast</title>
+    <desc>Live Stream for France 5 (1080p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="CanalPlusCinemas.fr@SD">
+    <title>Canal+ Cinemas (720p) Broadcast</title>
+    <desc>Live Stream for Canal+ Cinemas (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/canal__cinemas__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="CNews.fr@SD">
+    <title>CNews (1080p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for CNews (1080p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/cnews__1080p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="CStar.fr@SD">
+    <title>C Star (477p) Broadcast</title>
+    <desc>Live Stream for C Star (477p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="arte.fr@SD">
+    <title>Arte (720p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for Arte (720p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/arte__720p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="MCMPop.fr@SD">
+    <title>MCM Pop Broadcast</title>
+    <desc>Live Stream for MCM Pop</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/mcm_pop.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Gong.fr@SD">
+    <title>Gong (1080p) Broadcast</title>
+    <desc>Live Stream for Gong (1080p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="W9.fr@SD">
+    <title>W9 (1080p) Broadcast</title>
+    <desc>Live Stream for W9 (1080p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Manga.it">
+    <title>MAN-GA Broadcast</title>
+    <desc>Live Stream for MAN-GA</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/man_ga.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="LEquipe.fr@SD">
+    <title>L'Equipe (1080p) Broadcast</title>
+    <desc>Live Stream for L'Equipe (1080p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="RTS2.rs">
+    <title>RTS 2 Broadcast</title>
+    <desc>Live Stream for RTS 2</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rts_2.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="EuronewsFrench.fr">
+    <title>Euronews Français Ⓨ Broadcast</title>
+    <desc>Live Stream for Euronews Français Ⓨ</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/euronews_fran_ais.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="RTLCroatia.hr">
+    <title>RTL Broadcast</title>
+    <desc>Live Stream for RTL</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rtl.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="BFMBusiness.fr@SD">
+    <title>BFM Business (576p) Broadcast</title>
+    <desc>Live Stream for BFM Business (576p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/bfm_business__576p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="i24NEWSEnglishWorld.il">
+    <title>i24 News Broadcast</title>
+    <desc>Live Stream for i24 News</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="LCI.fr@HD">
+    <title>LCI HD (1080p) Broadcast</title>
+    <desc>Live Stream for LCI HD (1080p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/lci_hd__1080p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="TV5MondeAfrica.fr@SD">
+    <title>TV5Monde Africa (720p) Broadcast</title>
+    <desc>Live Stream for TV5Monde Africa (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/tv5monde_africa__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="MTVLive.us@SD">
+    <title>MTV Live (1080p) Broadcast</title>
+    <desc>Live Stream for MTV Live (1080p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/mtv_live__1080p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="4Music.fr@SD">
+    <title>4 Music Broadcast</title>
+    <desc>Live Stream for 4 Music</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="RTL2Croatia.hr">
+    <title>RTL 2 Broadcast</title>
+    <desc>Live Stream for RTL 2</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rtl_2.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ZDF.de@SD">
+    <title>ZDF (720p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for ZDF (720p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/zdf__720p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="SAT1Gold.de@SD">
+    <title>SAT.1 Gold (576p) Broadcast</title>
+    <desc>Live Stream for SAT.1 Gold (576p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/sat_1_gold__576p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Rai1.it@SD">
+    <title>Rai 1 (576p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for Rai 1 (576p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rai_1__576p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Rai3.it@HD">
+    <title>Rai 3 (576p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for Rai 3 (576p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rai_3__576p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="rai_sport_2">
+    <title>Rai Sport 2 Broadcast</title>
+    <desc>Live Stream for Rai Sport 2</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rai_sport_2.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Italia1.it@SD">
+    <title>Italia 1 [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for Italia 1 [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/italia_1__geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Goldmines.in@SD">
+    <title>Goldmines (576p) Broadcast</title>
+    <desc>Live Stream for Goldmines (576p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="StarGold2.in@SD">
+    <title>Star Gold 2 (576p) Broadcast</title>
+    <desc>Live Stream for Star Gold 2 (576p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/star_gold_2__576p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="StarSports2.in@HD">
+    <title>Star Sports 2 HD (720p) Broadcast</title>
+    <desc>Live Stream for Star Sports 2 HD (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/star_sports_2_hd__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="StarSports1.in@SD">
+    <title>Star Sports 1 (720p) Broadcast</title>
+    <desc>Live Stream for Star Sports 1 (720p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="SonyMax2.in@SD">
+    <title>Sony Max 2 (576p) Broadcast</title>
+    <desc>Live Stream for Sony Max 2 (576p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/sony_max_2__576p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="A2.ru@SD">
+    <title>Amedia 2 (576p) Broadcast</title>
+    <desc>Live Stream for Amedia 2 (576p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Astrahan24.ru@SD">
+    <title>Астрахань 24 (720p) Broadcast</title>
+    <desc>Live Stream for Астрахань 24 (720p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="RT.ru@SD">
+    <title>RT News (1080p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for RT News (1080p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rt_news__1080p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Italia2.it@SD">
+    <title>Italia 2 (480p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for Italia 2 (480p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/italia_2__480p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="La1.es@SD">
+    <title>La 1 (720p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for La 1 (720p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/la_1__720p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Clan.es@SD">
+    <title>Clan TVE (1080p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for Clan TVE (1080p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/clan_tve__1080p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="AmediaHit.ru@SD">
+    <title>Amedia Hit (1080p) Broadcast</title>
+    <desc>Live Stream for Amedia Hit (1080p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/amedia_hit__1080p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="LaLigaHypermotion.es@SD">
+    <title>LaLiga Hypermotion (1080p) Broadcast</title>
+    <desc>Live Stream for LaLiga Hypermotion (1080p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/laliga_hypermotion__1080p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="24Horas.es@SD">
+    <title>Canal 24 Horas (720p) Broadcast</title>
+    <desc>Live Stream for Canal 24 Horas (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/canal_24_horas__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="KBSStory.kr">
+    <title>KBS Story Broadcast</title>
+    <desc>Live Stream for KBS Story</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_story.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="TVK.kh@SD">
+    <title>TVK (720p) Broadcast</title>
+    <desc>Live Stream for TVK (720p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="TVK2.kh@SD">
+    <title>TVK 2 (720p) Broadcast</title>
+    <desc>Live Stream for TVK 2 (720p)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="HangMeasHDTV.kh@SD">
+    <title>Hang Meas HDTV (720p) Broadcast</title>
+    <desc>Live Stream for Hang Meas HDTV (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/hang_meas_hdtv__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="RasmeyHangMeasHDTV.kh@SD">
+    <title>Rasmey Hang Meas HDTV (720p) [Not 24/7] Broadcast</title>
+    <desc>Live Stream for Rasmey Hang Meas HDTV (720p) [Not 24/7]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/rasmey_hang_meas_hdtv__720p___not_24_7.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="MSJTV.kh@SD">
+    <title>MSJ TV (1080p) Broadcast</title>
+    <desc>Live Stream for MSJ TV (1080p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/msj_tv__1080p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ApsaraTV11.kh@SD">
+    <title>Apsara TV11 (720p) Broadcast</title>
+    <desc>Live Stream for Apsara TV11 (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/apsara_tv11__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="NTV.kh@SD">
+    <title>NTV Broadcast</title>
+    <desc>Live Stream for NTV</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="BTVNews.kh@SD">
+    <title>BTV News (720p) Broadcast</title>
+    <desc>Live Stream for BTV News (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/btv_news__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="SEATV.kh@SD">
+    <title>SEATV (1080p) Broadcast</title>
+    <desc>Live Stream for SEATV (1080p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/seatv__1080p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="BayonTV.kh@SD">
+    <title>Bayon TV Broadcast</title>
+    <desc>Live Stream for Bayon TV</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="FreshNews.kh@SD">
+    <title>Fresh News Broadcast</title>
+    <desc>Live Stream for Fresh News</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="JORXDTV.jp">
+    <title>TBSテレビ Broadcast</title>
+    <desc>Live Stream for TBSテレビ</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/tbs.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="JOAXDTV.jp">
+    <title>日本テレビ Broadcast</title>
+    <desc>Live Stream for 日本テレビ</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="NHKBS.jp">
+    <title>NHK BS Broadcast</title>
+    <desc>Live Stream for NHK BS</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nhk_bs.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="JOABDTV.jp">
+    <title>NHK Eテレ（東京） Broadcast</title>
+    <desc>Live Stream for NHK Eテレ（東京）</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nhk_e.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="JOAKDTV.jp">
+    <title>NHK総合 (東京) Broadcast</title>
+    <desc>Live Stream for NHK総合 (東京)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/nhk.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="KBS1TV.kr">
+    <title>KBS 1TV Broadcast</title>
+    <desc>Live Stream for KBS 1TV</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_1tv.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="KBS2TV.kr">
+    <title>KBS 2TV Broadcast</title>
+    <desc>Live Stream for KBS 2TV</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_2tv.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="KBSDrama.kr">
+    <title>KBS Drama Broadcast</title>
+    <desc>Live Stream for KBS Drama</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_drama.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="KBSJoy.kr">
+    <title>KBS Joy Broadcast</title>
+    <desc>Live Stream for KBS Joy</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_joy.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="KBSNewsD.kr">
+    <title>KBS News D Broadcast</title>
+    <desc>Live Stream for KBS News D</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/kbs_news_d.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ThaiPBS.th@SD">
+    <title>Thai PBS (1080p) [Not 24/7] Broadcast</title>
+    <desc>Live Stream for Thai PBS (1080p) [Not 24/7]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/thai_pbs__1080p___not_24_7.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="3HD.th@SD">
+    <title>3HD Broadcast</title>
+    <desc>Live Stream for 3HD</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="Channel8.th@SD">
+    <title>Channel 8 (1080p) [Not 24/7] Broadcast</title>
+    <desc>Live Stream for Channel 8 (1080p) [Not 24/7]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/channel_8__1080p___not_24_7.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="News1.th@SD">
+    <title>ASTV News 1 (720p) [Not 24/7] Broadcast</title>
+    <desc>Live Stream for ASTV News 1 (720p) [Not 24/7]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/astv_news_1__720p___not_24_7.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="DLTV1.th@SD">
+    <title>DLTV 1 (1080p) Broadcast</title>
+    <desc>Live Stream for DLTV 1 (1080p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/dltv_1__1080p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="CCTV9.cn@SD">
+    <title>CCTV-9 (576i) Broadcast</title>
+    <desc>Live Stream for CCTV-9 (576i)</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="VTV1.vn@HD">
+    <title>VTV1 HD (1080p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for VTV1 HD (1080p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/vtv1_hd__1080p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="VTV5.vn@HD">
+    <title>VTV5 HD (1080p) [Geo-blocked] Broadcast</title>
+    <desc>Live Stream for VTV5 HD (1080p) [Geo-blocked]</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/vtv5_hd__1080p___geo_blocked.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ZhejiangSatelliteTV.cn@SD">
+    <title>Zhejiang Satellite TV Broadcast</title>
+    <desc>Live Stream for Zhejiang Satellite TV</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/zhejiang_satellite_tv.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="ABNAndhraJyoti.in@SD">
+    <title>ABN Andhra Jyoti (720p) Broadcast</title>
+    <desc>Live Stream for ABN Andhra Jyoti (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/abn_andhra_jyoti__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="tnt_sport_1">
+    <title>TNT SPORT 1 🇬🇧 Broadcast</title>
+    <desc>Live Stream for TNT SPORT 1 🇬🇧</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="tnt_sport_2">
+    <title>TNT SPORT 2 🇬🇧 Broadcast</title>
+    <desc>Live Stream for TNT SPORT 2 🇬🇧</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="tnt_sport_3">
+    <title>TNT SPORT 3 🇬🇧 Broadcast</title>
+    <desc>Live Stream for TNT SPORT 3 🇬🇧</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="sky_sports_f1">
+    <title>Sky sports f1 Broadcast</title>
+    <desc>Live Stream for Sky sports f1</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/sky_sports_f1.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="british_eurosports_1">
+    <title>British eurosports 1 Broadcast</title>
+    <desc>Live Stream for British eurosports 1</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/british_eurosports_1.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="british_eurosport_2">
+    <title>British eurosport 2 Broadcast</title>
+    <desc>Live Stream for British eurosport 2</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/british_eurosport_2.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="HBTV.us@SD">
+    <title>Huntington Beach TV Channel 3 (720p) Broadcast</title>
+    <desc>Live Stream for Huntington Beach TV Channel 3 (720p)</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/huntington_beach_tv_channel_3__720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="htv7">
+    <title>HTV7 Broadcast</title>
+    <desc>Live Stream for HTV7</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/htv7.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="fr__bein_sports_1_hd">
+    <title>|FR| BEIN SPORTS 1 HD Broadcast</title>
+    <desc>Live Stream for |FR| BEIN SPORTS 1 HD</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/fr__bein_sports_1_hd.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="fr__bein_sports_2_hd">
+    <title>|FR| BEIN SPORTS 2 HD Broadcast</title>
+    <desc>Live Stream for |FR| BEIN SPORTS 2 HD</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/fr__bein_sports_2_hd.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="fr__bein_sports_3_hd">
+    <title>|FR| BEIN SPORTS 3 HD Broadcast</title>
+    <desc>Live Stream for |FR| BEIN SPORTS 3 HD</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/fr__bein_sports_3_hd.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="uk__sky_sport_football">
+    <title>Uk- Sky Sport Football Broadcast</title>
+    <desc>Live Stream for Uk- Sky Sport Football</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/uk__sky_sport_football.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="uk__sky_sports_premier_league_hd">
+    <title>Uk- Sky Sports Premier League HD Broadcast</title>
+    <desc>Live Stream for Uk- Sky Sports Premier League HD</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/uk__sky_sports_premier_league_hd.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="de__dazn__1_fhd">
+    <title>De- DAZN  1 FHD Broadcast</title>
+    <desc>Live Stream for De- DAZN  1 FHD</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/de__dazn__1_fhd.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="hbo_hd">
+    <title>HBO HD Broadcast</title>
+    <desc>Live Stream for HBO HD</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="hbo_hd_720p">
+    <title>HBO HD 720p Broadcast</title>
+    <desc>Live Stream for HBO HD 720p</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/hbo_hd_720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="hbo2_hd">
+    <title>HBO2 HD Broadcast</title>
+    <desc>Live Stream for HBO2 HD</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="hbo2_hd_720p">
+    <title>HBO2 HD 720p Broadcast</title>
+    <desc>Live Stream for HBO2 HD 720p</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/hbo2_hd_720p.png" />
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="hbo3_hd">
+    <title>HBO3 HD Broadcast</title>
+    <desc>Live Stream for HBO3 HD</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="mtv_base">
+    <title>MTV Base Broadcast</title>
+    <desc>Live Stream for MTV Base</desc>
+  </programme>
+  <programme start="20260724074058 +0000" stop="20260731074058 +0000" channel="MTVPlutoTV.us">
+    <title>MTV Pluto TV Broadcast</title>
+    <desc>Live Stream for MTV Pluto TV</desc>
+    <icon src="file:///Users/tayes/.Projects/hotel-iptv/assets/channel/mtv_pluto_tv.png" />
   </programme>
 </tv>
