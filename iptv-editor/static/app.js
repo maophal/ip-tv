@@ -21,9 +21,34 @@ async function loadChannels() {
     try {
         const res = await fetch('/api/channels');
         channels = await res.json();
+        populateGroupFilter();
         renderChannels();
     } catch (e) {
         showToast('Error loading channels', true);
+    }
+}
+
+function populateGroupFilter() {
+    const groupFilter = document.getElementById('group-filter');
+    if (!groupFilter) return;
+    
+    const groups = new Set();
+    channels.forEach(ch => {
+        if (ch.group && ch.group.trim() !== '') {
+            groups.add(ch.group.trim());
+        }
+    });
+    
+    const currentVal = groupFilter.value;
+    const sortedGroups = Array.from(groups).sort();
+    let optionsHTML = '<option value="">All Groups</option>';
+    sortedGroups.forEach(g => {
+        optionsHTML += `<option value="${g}">${g}</option>`;
+    });
+    
+    groupFilter.innerHTML = optionsHTML;
+    if (sortedGroups.includes(currentVal)) {
+        groupFilter.value = currentVal;
     }
 }
 
@@ -39,8 +64,13 @@ function renderChannels() {
     }
     
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const selectedGroup = document.getElementById('group-filter').value;
 
     channels.forEach((ch, index) => {
+        if (selectedGroup && ch.group !== selectedGroup) {
+            return;
+        }
+        
         if (searchTerm && !ch.name.toLowerCase().includes(searchTerm) && !(ch.group && ch.group.toLowerCase().includes(searchTerm))) {
             return; // Skip if it doesn't match search
         }
@@ -182,6 +212,7 @@ function showToast(msg, isError = false) {
 }
 
 document.getElementById('search-input').addEventListener('input', renderChannels);
+document.getElementById('group-filter').addEventListener('change', renderChannels);
 
 // Video Player Logic
 let hls;
