@@ -32,6 +32,12 @@ function renderChannels() {
     container.style.display = 'grid';
     container.innerHTML = '';
     
+    // Update stats
+    const statsEl = document.getElementById('channel-stats');
+    if (statsEl) {
+        statsEl.innerText = `Total Channels: ${channels.length} | Auto-Generated Programs: ${channels.length}`;
+    }
+    
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
 
     channels.forEach((ch, index) => {

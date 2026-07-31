@@ -11,9 +11,11 @@
 <body>
     <div class="app-container">
         <header class="glass-header">
-            <div class="header-content">
-                <h1>IPTV Editor</h1>
-                <div class="header-actions">
+            <div style="display: flex; flex-direction: column;">
+                <h1>IPTV Channel Editor</h1>
+                <span id="channel-stats" style="font-size: 0.85rem; color: #94a3b8; margin-top: 0.2rem;">Total Channels: 0 | Auto-Generated Programs: 0</span>
+            </div>
+            <div class="header-actions">
                     <input type="text" id="search-input" class="search-bar" placeholder="Search channels...">
                     <button id="add-channel-btn" class="btn btn-primary">
                         <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
@@ -99,6 +101,6 @@
     <!-- Notification Toast -->
     <div class="toast" id="toast">Changes saved successfully!</div>
 
-    <script src="app.js?v=5"></script>
+    <script src="app.js?v=6"></script>
 </body>
 </html>
