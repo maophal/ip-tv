@@ -125,7 +125,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 current_channel['name'] = tvg_name.group(1) if tvg_name else line.split(',')[-1].strip()
                 current_channel['logo'] = tvg_logo.group(1) if tvg_logo else ""
                 current_channel['group'] = group_title.group(1) if group_title else ""
-            elif line.startswith('http') or line.startswith('https'):
+            elif not line.startswith('#'):
                 if current_channel:
                     current_channel['url'] = line
                     channels.append(current_channel)
