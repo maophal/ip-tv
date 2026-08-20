@@ -243,6 +243,7 @@ document.getElementById('import-btn').addEventListener('click', async () => {
 
 // Video Player Logic
 let hls;
+let mpegtsPlayer;
 const videoModal = document.getElementById('video-modal');
 const videoPlayer = document.getElementById('video-player');
 const videoLog = document.getElementById('video-log');
@@ -263,8 +264,42 @@ function watchChannel(index) {
     logVideo('Connecting to ' + ch.url + '...');
     videoModal.classList.add('active');
     
+    if (hls) {
+        hls.destroy();
+        hls = null;
+    }
+    if (mpegtsPlayer) {
+        mpegtsPlayer.destroy();
+        mpegtsPlayer = null;
+    }
+    
+    if (ch.url.toLowerCase().endsWith('.ts') || ch.url.toLowerCase().includes('.ts?')) {
+        if (typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback) {
+            logVideo('Using mpegts.js for TS stream...', 'info');
+            mpegtsPlayer = mpegts.createPlayer({
+                type: 'mse',
+                isLive: true,
+                url: ch.url
+            });
+            mpegtsPlayer.attachMediaElement(videoPlayer);
+            mpegtsPlayer.load();
+            mpegtsPlayer.play();
+            
+            mpegtsPlayer.on(mpegts.Events.ERROR, (errorType, errorDetail) => {
+                const time = new Date().toLocaleTimeString();
+                logVideo(`[${time}] Error: ${errorType} - ${errorDetail}`, 'error');
+                logVideo(`-> If this is a network error, the stream might be offline or blocked by CORS.`, 'error');
+            });
+            
+            logVideo('Stream loaded! Playing...', 'success');
+            return;
+        } else {
+            logVideo('mpegts.js is not supported in this browser.', 'error');
+            return;
+        }
+    }
+    
     if (Hls.isSupported()) {
-        if (hls) hls.destroy();
         hls = new Hls({
             debug: false
         });
@@ -303,7 +338,8 @@ document.getElementById('close-video-btn').addEventListener('click', () => {
     videoPlayer.pause();
     videoPlayer.src = "";
     videoLog.innerHTML = "";
-    if (hls) hls.destroy();
+    if (hls) { hls.destroy(); hls = null; }
+    if (mpegtsPlayer) { mpegtsPlayer.destroy(); mpegtsPlayer = null; }
     videoModal.classList.remove('active');
 });
 
