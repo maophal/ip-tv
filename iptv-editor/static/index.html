@@ -12,12 +12,18 @@
     <div class="app-container">
         <header class="glass-header">
             <div class="header-content">
-                <h1>IPTV Editor</h1>
+                <div style="display: flex; flex-direction: column;">
+                    <h1>IPTV Editor</h1>
+                    <span id="channel-stats" style="font-size: 0.85rem; color: #94a3b8; margin-top: 0.2rem;">Total Channels: 0</span>
+                </div>
                 <div class="header-actions">
                     <button id="import-btn" class="btn btn-secondary" style="margin-right: 1rem;">
                         <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
                         Import M3U URL
                     </button>
+                    <select id="group-filter" class="search-bar" style="width: auto;">
+                        <option value="">All Groups</option>
+                    </select>
                     <input type="text" id="search-input" class="search-bar" placeholder="Search channels...">
                     <button id="add-channel-btn" class="btn btn-primary">
                         <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
@@ -103,6 +109,6 @@
     <!-- Notification Toast -->
     <div class="toast" id="toast">Changes saved successfully!</div>
 
-    <script src="app.js?v=15"></script>
+    <script src="app.js?v=16"></script>
 </body>
 </html>

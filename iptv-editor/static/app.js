@@ -21,9 +21,34 @@ async function loadChannels() {
     try {
         const res = await fetch('/api/channels');
         channels = await res.json();
+        populateGroupFilter();
         renderChannels();
     } catch (e) {
         showToast('Error loading channels', true);
+    }
+}
+
+function populateGroupFilter() {
+    const groupFilter = document.getElementById('group-filter');
+    if (!groupFilter) return;
+    
+    const groups = new Set();
+    channels.forEach(ch => {
+        if (ch.group && ch.group.trim() !== '') {
+            groups.add(ch.group.trim());
+        }
+    });
+    
+    const currentVal = groupFilter.value;
+    const sortedGroups = Array.from(groups).sort();
+    let optionsHTML = '<option value="">All Groups</option>';
+    sortedGroups.forEach(g => {
+        optionsHTML += `<option value="${g}">${g}</option>`;
+    });
+    
+    groupFilter.innerHTML = optionsHTML;
+    if (sortedGroups.includes(currentVal)) {
+        groupFilter.value = currentVal;
     }
 }
 
@@ -32,9 +57,18 @@ function renderChannels() {
     container.style.display = 'grid';
     container.innerHTML = '';
     
+    const statsEl = document.getElementById('channel-stats');
+    if (statsEl) {
+        statsEl.innerText = `Total Channels: ${channels.length}`;
+    }
+    
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const groupFilterEl = document.getElementById('group-filter');
+    const selectedGroup = groupFilterEl ? groupFilterEl.value : '';
 
     channels.forEach((ch, index) => {
+        if (selectedGroup && ch.group !== selectedGroup) return;
+        
         if (searchTerm && !ch.name.toLowerCase().includes(searchTerm) && !(ch.group && ch.group.toLowerCase().includes(searchTerm))) {
             return; // Skip if it doesn't match search
         }
@@ -97,6 +131,7 @@ function editChannel(index) {
 function deleteChannel(index) {
     if (confirm('Are you sure you want to delete this channel?')) {
         channels.splice(index, 1);
+        populateGroupFilter();
         renderChannels();
     }
 }
@@ -138,6 +173,7 @@ form.addEventListener('submit', (e) => {
         channels.push(newChannel);
     }
     
+    populateGroupFilter();
     renderChannels();
     closeModal();
 });
@@ -176,6 +212,10 @@ function showToast(msg, isError = false) {
 }
 
 document.getElementById('search-input').addEventListener('input', renderChannels);
+const groupFilterEl = document.getElementById('group-filter');
+if (groupFilterEl) {
+    groupFilterEl.addEventListener('change', renderChannels);
+}
 
 // Import Button Logic
 document.getElementById('import-btn').addEventListener('click', async () => {
