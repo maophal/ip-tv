@@ -177,6 +177,30 @@ function showToast(msg, isError = false) {
 
 document.getElementById('search-input').addEventListener('input', renderChannels);
 
+// Import Button Logic
+document.getElementById('import-btn').addEventListener('click', async () => {
+    const url = prompt("• For HTTP links (http://...): We will download and OVERWRITE your current playlist.\n• For local files (/Users/.../file.m3u): We will permanently LINK the editor to edit that file directly.\n\nEnter path:");
+    if (!url) return;
+    
+    showToast('Importing channels from URL...', false);
+    try {
+        const res = await fetch('/api/import', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ url: url })
+        });
+        const data = await res.json();
+        if (data.status === 'success') {
+            showToast(`Successfully imported channels!`);
+            loadChannels();
+        } else {
+            showToast('Failed to import channels', true);
+        }
+    } catch (e) {
+        showToast('Error importing channels', true);
+    }
+});
+
 // Video Player Logic
 let hls;
 const videoModal = document.getElementById('video-modal');

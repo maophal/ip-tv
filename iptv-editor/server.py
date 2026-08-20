@@ -7,8 +7,31 @@ from datetime import datetime, timedelta
 
 PORT = 8000
 DIRECTORY = "static"
-M3U_PATH = "../ip-tv.m3u"
-EPG_PATH = "../epg.xml"
+
+import urllib.request
+import urllib.parse
+import ssl
+
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
+
+CONFIG_FILE = "config.json"
+def load_config():
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                return json.load(f)
+        except: pass
+    return {"M3U_PATH": "../ip-tv.m3u", "EPG_PATH": "../epg.xml"}
+
+def save_config(conf):
+    with open(CONFIG_FILE, 'w') as f:
+        json.dump(conf, f)
+
+config = load_config()
+M3U_PATH = config.get("M3U_PATH", "../ip-tv.m3u")
+EPG_PATH = config.get("EPG_PATH", "../epg.xml")
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
@@ -36,6 +59,36 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Content-type', 'application/json')
             self.end_headers()
             self.wfile.write(json.dumps({"status": "success"}).encode('utf-8'))
+        elif self.path == '/api/import':
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+            data = json.loads(post_data.decode('utf-8'))
+            url = data.get('url')
+            
+            if not url:
+                self.send_error(400, "Missing url parameter")
+                return
+                
+            try:
+                global M3U_PATH
+                if url.startswith('http://') or url.startswith('https://'):
+                    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                    with urllib.request.urlopen(req, context=ctx, timeout=10) as response:
+                        m3u_text = response.read().decode('utf-8', errors='ignore')
+                    with open(M3U_PATH, 'w') as f:
+                        f.write(m3u_text)
+                else:
+                    if url.startswith('file://'): url = url[7:]
+                    M3U_PATH = url
+                    config["M3U_PATH"] = url
+                    save_config(config)
+                
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "success"}).encode('utf-8'))
+            except Exception as e:
+                self.send_error(500, str(e))
         else:
             self.send_error(404)
 
